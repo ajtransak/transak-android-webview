@@ -14,7 +14,6 @@ class MainActivity : ComponentActivity() {
 
         val myWebView: WebView = findViewById(R.id.webview)
         myWebView.settings.javaScriptEnabled = true
-        myWebView.loadUrl("https://global-beta.transak.com?apiKey=02624956-010b-4775-8e31-7b9c8b82df76")
-//        myWebView.loadUrl("https://docs.transak.com")
+        myWebView.loadUrl("https://global-beta.transak.com/?apiKey=4f4d1fff-3bba-4749-aa07-11d0667adbf4&themeColor=FDC809")
     }
 }
